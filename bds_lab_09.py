@@ -1,4 +1,4 @@
-# encode function
+# BDS encode function
 def encode(password):
     encoded_password = ''
     for digit in password:
@@ -10,7 +10,7 @@ def encode(password):
 def decode(encoded_password):
 
 
-# main function
+# BDS main function
 def main():
     while True:
         print("Hello its me")
