@@ -13,6 +13,7 @@ def decode(encoded_password):
 # main function
 def main():
     while True:
+        print("Hello its me")
         print("1. Encode Password")
         print("2. Decode Password")
         print("3. Exit")
