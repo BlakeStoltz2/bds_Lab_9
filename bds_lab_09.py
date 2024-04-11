@@ -8,6 +8,11 @@ def encode(password):
 
 # decode function
 def decode(encoded_password):
+    decoded_password = ''
+    for digit in encoded_password:
+        decoded_digit = str((int(digit) - 3) % 10)
+        decoded_password += decoded_digit
+    return decoded_password
 
 
 # BDS main function
