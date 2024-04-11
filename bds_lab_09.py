@@ -15,7 +15,7 @@ def decode(encoded_password):
     return decoded_password
 
 
-    # main function
+# main function
 def main():
     while True:
         print("1. Encode Password")
