@@ -6,14 +6,18 @@ def encode(password):
         encoded_password += encoded_digit
     return encoded_password
 
-# decode function
+# WVN decode function
 def decode(encoded_password):
+    decoded_password = ''
+    for num in encoded_password:
+        decoded_digit = str((int(num) - 3) % 10)
+        decoded_password += decoded_digit
+    return decoded_password
 
 
-# main function
+    # main function
 def main():
     while True:
-        print("Hello its me")
         print("1. Encode Password")
         print("2. Decode Password")
         print("3. Exit")
